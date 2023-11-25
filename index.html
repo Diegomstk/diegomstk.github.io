@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="resources/styles.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Gimnasio</title>
+</head>
+    <header>
+        <nav class="nav_bar">
+            <input type="checkbox" id="check">
+            <label for="check" class="check_button">
+                <i class="las la-bars"></i>
+            </label>
+            <img id="logo" src="resources\images\pngwing.com-modified.png">
+            <ul class="nav_links">
+                <li><a href="#about">Inicio</a></li>
+                <li><a href="#actv">Actividades</a></li>
+                <li><a href="#plan1">Planes</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main_container">
+            <div class="about_carousel">
+                <div id="about" class="about_us">
+                    <h2>Quienes Somos</h2>
+                    <p><span class="first_two_words">Power Fitness</span> es una comunidad comprometida con el bienestar y la salud. Ofrecemos instalaciones de vanguardia, entrenadores altamente calificados y clases grupales para personas de todos los niveles de condición física. Nuestra atmósfera es acogedora y amigable, promoviendo la diversidad e inclusión.</p>
+                </div>
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="resources/images/carrusel1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="resources/images/carrusel2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="resources/images/carrusel3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="actv"class="activities">
+            <h2>Actividades</h2>
+            <div class="activities_container">
+                <div class="img">
+                    <img class="activity_img" src="resources\images\zumba.jpg">
+                    <div class="hiddentext">
+                        <h4>Zumba</h4>
+                    </div>
+                </div>
+                <div class="img">
+                    <img class="activity_img" src="resources\images\box.jpg">
+                    <div class="hiddentext">
+                        <h4>Boxeo</h4>
+                    </div>
+                </div>
+                <div class="img">
+                    <img class="activity_img" src="resources\images\crossfit.jpg">
+                    <div class="hiddentext">
+                        <h4>Crossfit</h4>
+                    </div>
+                </div>
+                <div class="img">
+                    <img class="activity_img" src="resources\images\pilates.jpg">
+                    <div class="hiddentext">
+                        <h4>Pilates</h4>
+                    </div>
+                </div>
+                <div class="img">
+                    <img class="activity_img" src="resources\images\yoga.jpg">
+                    <div class="hiddentext">
+                        <h4>Yoga</h4>
+                    </div>
+                </div>
+                <div class="img">
+                    <img class="activity_img" src="resources\images\kick.jpg">
+                    <div class="hiddentext">
+                        <h4>Kickboxing</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="plan_container">
+            <div id="plan1" class="plan">
+                <h2>Plan Básico</h2>
+                <ul class="plan_list">
+                    <li class="first_li"> Precio: 25<i class="las la-dollar-sign"></i>
+                    </li>
+                    <li>
+                        <i class="las la-check"></i>
+                        Acceso: Sin limite
+                    </li>
+                    <li>
+                        <i class="las la-check"></i>
+                        Actividades: 1
+                    </li>
+                    <li>
+                        <i class="las la-check"></i>
+                        Asesoría: Básica
+                    </li>
+                    <li>
+                        <i class="las la-check"></i>
+                        Duración de la membresía: Mensual o contrato anual
+                    </li>
+                    <button class="plan_button">
+                        Seleccionar
+                    </button>
+                </ul>
+            </div>
+            <div id="plan2" class="plan">
+                <h2>Plan Intermedio</h2>
+                <ul class="plan_list">
+                    <li class="first_li"> Precio: 50<i class="las la-dollar-sign"></i>
+                    </li>
+                    <li>
+                        <i class="las la-check"></i>
+                        Acceso: Sin limite
+                    </li>
+                    <li>
+                        <i class="las la-check"></i>
+                        Actividades: Hasta 3
+                    </li>
+                    <li>
+                        <i class="las la-check"></i>
+                        Asesoría: Personalizada
+                    </li>
+                    <li>
+                        <i class="las la-check"></i>
+                        Duración de la membresía: 3 Meses o Contrato anual
+                    </li>
+                    <button class="plan_button">
+                        Seleccionar
+                    </button>
+                </ul>
+            </div>
+            <div id="plan3" class="plan">
+                <h2>Plan Completo</h2>
+                <ul class="plan_list">
+                    <li class="first_li">
+                        Precio: 100<i class="las la-dollar-sign"></i>    
+                    </li>
+                    <li>
+                        <i class="las la-check"></i>
+                        Acceso: Sin limite
+                    </li>
+                    <li>
+                        <i class="las la-check"></i>
+                        Actividades: Sin limite
+                    </li>
+                    <li>
+                        <i class="las la-check"></i>
+                        Asesoría: Personalizada, entrenador personal
+                    </li>
+                    <li>
+                        <i class="las la-check"></i>
+                        Duración de la membresía: Contrato anual
+                    </li>
+                    <button class="plan_button">
+                        Seleccionar
+                    </button>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="contact" class="contactinfo_container">
+            <div class="email_contact">
+                <h2>Contacto</h2>
+                <div class="contact">
+                    <div class="socialmedia_links">
+                        <h2 id="red_h2">Nuestras redes</h2>
+                        <div class="icons">
+                            <i class="lab la-instagram"></i>
+                            <i class="lab la-facebook-f"></i>
+                            <i class="lab la-whatsapp"></i>
+                        </div>
+                        <h2 class="hidden_h2">Envianos tu consulta</h2>  
+                    </div>
+                    <div class="form">
+                        <p>Nombre</p>
+                        <input type="text" placeholder="Nombre">
+                        <p>Email</p>
+                        <input type="Email" placeholder="Email">
+                        <p>Mensaje</p>
+                        <textarea id="mensaje" name="mensaje" placeholder="Mensaje" rows="4" cols="50"></textarea>
+                        <button id="submit_email_message">Enviar</button>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="map_location">
+                <h2>Encontranos en:</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2421.626985997068!2d-2.4961873869959463!3d52.63058457785066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48707eebab9ac3bf%3A0xc2158d3d34c2b66a!2sPOWER%20Camp%20Fitness!5e0!3m2!1ses-419!2sar!4v1699301240898!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </footer>
+    <script src="/resources/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
