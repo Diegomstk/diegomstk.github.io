@@ -383,6 +383,7 @@ ul{
     color:white;
     padding: 0;
     margin:0;
+    font-size: 25px;
 }
 
 .email_contact input{
@@ -470,7 +471,10 @@ textarea {
     .nav_links{
         font-size: 25px;
     }
-
+    .about_us{
+	margin-top: 40px;
+    }
+	
     .about_carousel{
         display: flex;
         flex-direction: column;
